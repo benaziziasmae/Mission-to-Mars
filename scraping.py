@@ -63,7 +63,7 @@ def featured_image(browser):
     browser.visit(url)
 
     # Find and click the full_image button
-    full_image_elem= browser.find_by_tag('full_image')[1]
+    full_image_elem= browser.find_by_tag('button')[1]
     full_image_elem.click()
 
    # Parse the resulting html with soup
@@ -101,10 +101,11 @@ def mars_facts():
     # Convert dataframe into HTML format, add bootstrap
     return df.to_html(classes="table table-striped")
 
-if __name__ == "__main__":
+    def scraping_code(browser):
+    # 1. Use browser to visit the URL 
+        url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
+        browser.visit(url)
 
-    # If running as script, print scraped data
-    print(scrape_all())
 
 
 def hemisphere(browser):
