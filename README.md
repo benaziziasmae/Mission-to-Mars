@@ -11,5 +11,17 @@ This project scrapes data from various websites to create an new webpage that hi
 - Software :Jupyter notebook, VS Code, Flask, Splinter, Beautiful Soup, MongoDB.
 
 ## Challenge summary
+ 
+ 1- Step 1
+ 
+- Write Code is written that retrieves the full-resolution image and title for each hemisphere image.
+- Have full-resolution images of the hemispheres are added to the dictionary.
+- Titles for the hemisphere images are added to the dictionary.
+- Create a list containing the dictionary of the full-resolution image URL string and title for each hemisphere image.
 
-Use BeautifulSoup and Splinter to automate a web browser and scrape high-resolution images. Use a MongoDB database to store data from the web scrape. Update the web application and Flask to display the data from the web scrape. Use Bootstrap to style the web app.
+
+2- Step 2
+
+- Create a scraping.py file contains code that retrieves the full-resolution image URL and title for each hemisphere image.
+- Make a Mongo database is updated to contain the full-resolution image URL and title for each hemisphere image.
+- Create the index.html file contains code that will display the full-resolution image URL and title for each hemisphere image. 4.After the scraping has been completed, the web app contains all the information from this module and the full-resolution images and titles for the four hemisphere images.
