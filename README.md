@@ -19,7 +19,7 @@ This project scrapes data from various websites to create an new webpage that hi
 - Titles for the hemisphere images are added to the dictionary.
 - Create a list containing the dictionary of the full-resolution image URL string and title for each hemisphere image.
 
-![mars features](/Resources/mars features.PNG)
+![mars_features](/Resources/mars_features.PNG)
 
 
 2- Step 2
@@ -29,4 +29,4 @@ This project scrapes data from various websites to create an new webpage that hi
 - Create the index.html file contains code that will display the full-resolution image URL and title for each hemisphere image. 4.After the scraping has been completed, the web app contains all the information from this module and the full-resolution images and titles for the four hemisphere images.
 
 
-![mars hemispheres](/Resources/mars hemispheres.PNG)
+![mars_hemispheres](/Resources/mars_hemispheres.PNG)
