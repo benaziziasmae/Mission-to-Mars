@@ -36,11 +36,11 @@ This project scrapes data from various websites to create an new webpage that hi
 
 The two additional Bootstrap 3 components  used to style the webpag:
 
- - the first one: i chnaged the color of Mars features to blue
+ - The first one:we changed the color of Mars features to blue as the image below:
  
  ![mars_features_blue](/Resources/mars_features_blue.PNG)
  
  - The second one is i centred the image of hemisphere as well as make them mobile-responsive by sizing the image to a small one to fit when we use a mobile or a tablet.
 
-![mars_hemispheres_centred](/Resources/mars_hemispheres_centred.PNG)
+![mars_hemisphere_rezoomed](/Resources/mars_hemisphere_rezoomed.PNG)
 
