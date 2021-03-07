@@ -6,7 +6,6 @@ import pandas as pd
 import datetime as dt
 from webdriver_manager.chrome import ChromeDriverManager
 
-
 def scrape_all():
     # Initiate headless driver for deployment
     browser = Browser("chrome", executable_path="chromedriver", headless=True)
@@ -24,7 +23,6 @@ def scrape_all():
     # Stop webdriver and return data
     browser.quit()
     return data
-
 
 def mars_news(browser):
 
@@ -52,7 +50,6 @@ def mars_news(browser):
         return None, None
 
     return news_title, news_p
-
 
 ## > SCRAPE FEATURED IMAGES <
 
@@ -99,14 +96,12 @@ def mars_facts():
     df.set_index('Description', inplace=True)
 
     # Convert dataframe into HTML format, add bootstrap
-    return df.to_html(classes="table table-striped")
+    return df.to_html(classes="table table-striped text-primary")
 
     def scraping_code(browser):
     # 1. Use browser to visit the URL 
         url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
         browser.visit(url)
-
-
 
 def hemisphere(browser):
     url='https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
