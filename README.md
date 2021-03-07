@@ -3,9 +3,9 @@
 ## Overview of the project
 
 
-The purpose of this project if to create an APP to scrape data from website of rou mission to Mars and creat an HTML page to show our findings.
+The purpose of this project is to create an APP to scrape data from website of rou mission to Mars and creat an HTML page to show our findings.
 
-This project scrapes data from various websites to create an new webpage that highlights facts about the planet Mars. In order to complete this task, we used splinter and beautiful soup libraries to scrape the relevant data. From there, we transformed the data to a Mongo Database before uploading the data to my webpage using flask. Lastly, we used bootstrap to cleanup my webpage to make it presentable..
+This project scrapes data from various websites to create an new webpage that highlights facts about the planet Mars. In order to complete this task, we used splinter and beautiful soup libraries to scrape the relevant data. From there, we transformed the data to a Mongo Database before uploading the data to my webpage using flask. Lastly, we used bootstrap to cleanup the webpage to make it presentable..
 
 ## Resources
 - Software :Jupyter notebook, VS Code, Flask, Splinter, Beautiful Soup, MongoDB.
@@ -36,7 +36,7 @@ This project scrapes data from various websites to create an new webpage that hi
 
 The two additional Bootstrap 3 components  used to style the webpag:
 
- - The first one:we changed the color of Mars features to blue as the image below:
+ - The first one : we changed the color of Mars features to blue as the image below:
  
  ![mars_features_blue](/Resources/mars_features_blue.PNG)
  
