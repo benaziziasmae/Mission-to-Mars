@@ -19,9 +19,14 @@ This project scrapes data from various websites to create an new webpage that hi
 - Titles for the hemisphere images are added to the dictionary.
 - Create a list containing the dictionary of the full-resolution image URL string and title for each hemisphere image.
 
+![mars_features](/Resources/mars_features.PNG)
+
 
 2- Step 2
 
 - Create a scraping.py file contains code that retrieves the full-resolution image URL and title for each hemisphere image.
 - Make a Mongo database is updated to contain the full-resolution image URL and title for each hemisphere image.
 - Create the index.html file contains code that will display the full-resolution image URL and title for each hemisphere image. 4.After the scraping has been completed, the web app contains all the information from this module and the full-resolution images and titles for the four hemisphere images.
+
+
+![mars_hemispheres](/Resources/mars_hemispheres.PNG)
