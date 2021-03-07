@@ -40,7 +40,7 @@ The two additional Bootstrap 3 components  used to style the webpag:
  
  ![mars_features_blue](/Resources/mars_features_blue.PNG)
  
- - The second one is i centred the image of hemisphere as well as make them mobile-responsive by sizing the image to a small one to fit when we use a mobile or a tablet.
+ - The second one is we centred the image of hemisphere as well as make them mobile-responsive by sizing the image to a small one to fit when we use a mobile or a tablet.
 
 ![mars_hemisphere_rezoomed](/Resources/mars_hemisphere_rezoomed.PNG)
 
