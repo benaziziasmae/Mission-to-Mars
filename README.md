@@ -12,7 +12,7 @@ This project scrapes data from various websites to create an new webpage that hi
 
 ## Challenge summary
  
- 1- Step 1
+ 1- Deliverable 1
  
 - Write Code is written that retrieves the full-resolution image and title for each hemisphere image.
 - Have full-resolution images of the hemispheres are added to the dictionary.
@@ -22,7 +22,7 @@ This project scrapes data from various websites to create an new webpage that hi
 ![mars_features](/Resources/mars_features.PNG)
 
 
-2- Step 2
+2- Deliverable 2
 
 - Create a scraping.py file contains code that retrieves the full-resolution image URL and title for each hemisphere image.
 - Make a Mongo database is updated to contain the full-resolution image URL and title for each hemisphere image.
@@ -30,3 +30,17 @@ This project scrapes data from various websites to create an new webpage that hi
 
 
 ![mars_hemispheres](/Resources/mars_hemispheres.PNG)
+
+
+3- Deliverable 3
+
+The two additional Bootstrap 3 components  used to style the webpag:
+
+ - the first one: i chnaged the color of Mars features to blue
+ 
+ ![mars_features_blue](/Resources/mars_features_blue.PNG)
+ 
+ - The second one is i centred the image of hemisphere as well as make them mobile-responsive by sizing the image to a small one to fit when we use a mobile or a tablet.
+
+![mars_hemispheres_centred](/Resources/mars_hemispheres_centred.PNG)
+
